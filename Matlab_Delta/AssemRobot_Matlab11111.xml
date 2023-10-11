@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/06/23||18:31:32" using="Simscape Multibody Link Version 7.4" from="SolidWorks 30.1.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="AssemRobot_Matlab" uid="AssemRobot_Matlab" version="156">
+<AssemblyFile name="AssemRobot_Matlab.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Link2_Matlab-6" uid="Link2_Matlab-6" entityUid="Link2_Matlab*:*Default">
+<Transform>
+<Rotation>-0.61051811695225 -0.48907351091949031 -0.62295644293157593 0.49563542107491365 0.37757324630513767 -0.78216620551548566 0.61774845871841044 -0.78628591783872304 0.011886848175407305</Rotation>
+<Translation>0.26401094729026464 -0.11913117627289754 0.20484546151970859</Translation>
+</Transform>
+</Instance>
+<Instance name="Base_top_Matlab-1" uid="Base_top_Matlab-1" entityUid="Base_top_Matlab*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.025704631646017571 0.069238572325164158 0.44558987583264714</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2_Matlab-7" uid="Link2_Matlab-7" entityUid="Link2_Matlab*:*Default">
+<Transform>
+<Rotation>0.52604044175948672 -0.47196511503223693 0.70748171978227903 0.52497050730003247 -0.47427767579537378 -0.70672954707390356 0.66909447770746899 0.74317536048684096 -0.0017214722256695507</Rotation>
+<Translation>-0.28331869400892329 -0.13027850903841581 0.18533397430387136</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2_Matlab-5" uid="Link2_Matlab-5" entityUid="Link2_Matlab*:*Default">
+<Transform>
+<Rotation>-0.067643767489339715 -0.036639732812148863 -0.99703653428512973 -0.59717079463839173 0.80203811334188391 0.011041140246510686 0.79925675646240224 0.59614796378621127 -0.076133058015256327</Rotation>
+<Translation>-0.028834848610098628 0.34616347428770711 0.13587230837698419</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2_Matlab-4" uid="Link2_Matlab-4" entityUid="Link2_Matlab*:*Default">
+<Transform>
+<Rotation>-0.067643767489344725 0.055983542764534169 -0.99613762285106944 -0.59717079463842482 0.79755764479469271 0.085374734321432777 0.79925675646237726 0.60063936448510813 -0.020518067164470577</Rotation>
+<Translation>0.028834848610079643 0.34616347428770811 0.13587230837698833</Translation>
+</Transform>
+</Instance>
+<Instance name="Base_Matlab-1" uid="Base_Matlab-1" grounded="true" entityUid="Base_Matlab*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Link_1_Matlab-4" uid="Link_1_Matlab-4" entityUid="Link_1_Matlab*:*Default">
+<Transform>
+<Rotation>0.52050627574684671 0.69215115177830566 0.50000000000011247 -0.30051443841743358 -0.3996136537992252 0.86602540378437376 0.79922730759828398 -0.60102887683471407 1.2906342661267445e-14</Rotation>
+<Translation>0.14549226783582953 -0.083999999999992012 0.04499999999997549</Translation>
+</Transform>
+</Instance>
+<Instance name="Link_1_Matlab-2" uid="Link_1_Matlab-2" entityUid="Link_1_Matlab*:*Default">
+<Transform>
+<Rotation>-0.61704500934038387 -0.60766393380553096 0.50000000000011302 -0.35625110224490042 -0.35083493575954844 -0.86602540378437354 0.70166987151894955 -0.71250220448962887 -9.0760732263106547e-15</Rotation>
+<Translation>-0.14549226783575847 -0.08400000000002647 0.044999999999993615</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2_Matlab-1" uid="Link2_Matlab-1" entityUid="Link2_Matlab*:*Default">
+<Transform>
+<Rotation>0.52604044175948872 -0.62421088849695228 0.57761771122025618 0.52497050730007189 -0.29601397063275686 -0.79798602472432711 0.66909447770743646 0.72300518384868762 0.17197698691783792</Rotation>
+<Translation>-0.25448384539883634 -0.18022193185966986 0.1853339743038904</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2_Matlab-2" uid="Link2_Matlab-2" entityUid="Link2_Matlab*:*Default">
+<Transform>
+<Rotation>-0.61051811695227443 -0.5043393686484573 -0.61066310687999192 0.49563542107492398 0.35810220721945396 -0.79127007940426886 0.61774845871837814 -0.78575098499195706 0.031340570116665245</Rotation>
+<Translation>0.235176098680174 -0.16907459909412825 0.20484546151971719</Translation>
+</Transform>
+</Instance>
+<Instance name="Link_1_Matlab-1" uid="Link_1_Matlab-1" entityUid="Link_1_Matlab*:*Default">
+<Transform>
+<Rotation>0 1.8224031462686369e-16 -0.99999999999999989 0.8908173714381884 0.45436154188482608 1.6653345375032929e-16 0.45436154188482608 -0.8908173714381884 -1.1963610187955747e-16</Rotation>
+<Translation>1.5897902745219717e-15 0.16799999999999463 0.045000000000013876</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_Matlab-1</Uid>
+</InstancePath>
+<Position>-0.010000000000000099 0.14300000000000002 0.070000000000000007</Position>
+<Axis>1 -1.6653345369377348e-16 1.1963610179150392e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1_Matlab-1</Uid>
+</InstancePath>
+<Position>0 0 0.0099999999999999967</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base_Matlab-1</Uid>
+</InstancePath>
+<Position>0.021999999999999895 0.16800000000000001 0.045000000000000005</Position>
+<Axis>1 -1.679355357877166e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Link_1_Matlab-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0099999999999999967</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_Matlab-1</Uid>
+</InstancePath>
+<Position>-0.11884163274114254 -0.080160254037868667 0.070000000000000007</Position>
+<Axis>-0.50000000000000056 0.86602540378443837 1.1963610179150392e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1_Matlab-2</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base_Matlab-1</Uid>
+</InstancePath>
+<Position>-0.15639226783575352 -0.065120646197523557 0.045000000000000005</Position>
+<Axis>0.50000000000000056 -0.86602540378443837 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Link_1_Matlab-2</Uid>
+</InstancePath>
+<Position>0 0 -0.010000000000000023</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_Matlab-1</Uid>
+</InstancePath>
+<Position>0.1288416327412118 -0.062839745962139884 0.070000000000000007</Position>
+<Axis>-0.49999999999999906 -0.86602540378443915 1.1963610179150392e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link_1_Matlab-4</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Base_Matlab-1</Uid>
+</InstancePath>
+<Position>0.1344922678358228 -0.10305255888324191 0.045000000000000005</Position>
+<Axis>-0.49999999999999906 -0.86602540378443915 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Link_1_Matlab-4</Uid>
+</InstancePath>
+<Position>0 0 -0.0099999999999999811</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link2_Matlab-7</Uid>
+</InstancePath>
+<Position>0.38 1.4988010832439613e-15 -1.4155343563970746e-15</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Base_top_Matlab-1</Uid>
+</InstancePath>
+<Position>-0.057718694494266067 -2.8288589385402907e-05 -0.0060000000000000053</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link_1_Matlab-2</Uid>
+</InstancePath>
+<Position>0.19999999999999982 0 -0.028834848610088362</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link2_Matlab-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link_1_Matlab-2</Uid>
+</InstancePath>
+<Position>0.20000000000000009 0 0.028834848610088341</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link2_Matlab-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link2_Matlab-1</Uid>
+</InstancePath>
+<Position>0.37999999999999995 1.3322676295501878e-15 -1.3183898417423734e-15</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Base_top_Matlab-1</Uid>
+</InstancePath>
+<Position>-0.028883845884177514 -0.049971711410615058 -0.0060000000000001719</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link_1_Matlab-4</Uid>
+</InstancePath>
+<Position>0.1999999999999999 -1.1102230246251565e-16 -0.028834848610088313</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link2_Matlab-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link2_Matlab-2</Uid>
+</InstancePath>
+<Position>0.37999999999999989 1.27675647831893e-15 -1.2915016278647329e-15</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Base_top_Matlab-1</Uid>
+</InstancePath>
+<Position>0.028883845884178229 -0.049971711410614628 -0.0060000000000001719</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link_1_Matlab-4</Uid>
+</InstancePath>
+<Position>0.20000000000000007 0 0.028834848610088334</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link2_Matlab-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link2_Matlab-6</Uid>
+</InstancePath>
+<Position>0.37999999999999989 1.27675647831893e-15 -1.3600232051658168e-15</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Base_top_Matlab-1</Uid>
+</InstancePath>
+<Position>0.057718694494266087 -2.8288589384542484e-05 -0.0060000000000000053</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link_1_Matlab-1</Uid>
+</InstancePath>
+<Position>0.19999999999999987 0 -0.028834848610088313</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link2_Matlab-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link2_Matlab-4</Uid>
+</InstancePath>
+<Position>0.37999999999999984 1.27675647831893e-15 -1.3205582460873444e-15</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Base_top_Matlab-1</Uid>
+</InstancePath>
+<Position>0.028834848610088309 0.050000000000000003 -0.0059999999999998388</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link_1_Matlab-1</Uid>
+</InstancePath>
+<Position>0.20000000000000009 0 0.02883484861008832</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link2_Matlab-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Link2_Matlab-5</Uid>
+</InstancePath>
+<Position>0.37999999999999989 1.3322676295501878e-15 -1.3253287356462806e-15</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Base_top_Matlab-1</Uid>
+</InstancePath>
+<Position>-0.02883484861008833 0.050000000000000017 -0.0059999999999998388</Position>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base_Matlab" uid="Base_Matlab*:*Default" version="177">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base_Matlab.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.7960460648941383</Mass>
+<CenterOfMass>1.3683347455401741e-14 4.0938952788517078e-15 0.00058278752123034228</CenterOfMass>
+<Inertia>0.023901302538242478 0.023901302538241596 0.046910954984188145 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Matlab_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base_top_Matlab" uid="Base_top_Matlab*:*Default" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base_top_Matlab.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10344512015678282</Mass>
+<CenterOfMass>0 0 -0.0059999999999999993</CenterOfMass>
+<Inertia>8.9914555661018073e-05 8.9914553817458818e-05 0.00017693592669946459 -4.7489042737862689e-12 9.7210959493919842e-12 1.9761442289267577e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Base_top_Matlab_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link2_Matlab" uid="Link2_Matlab*:*Default" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link2_Matlab.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.042984909843146513</Mass>
+<CenterOfMass>0.19000006152387536 1.9963896316931202e-07 1.5031943306156392e-12</CenterOfMass>
+<Inertia>1.0108744879804449e-06 0.00053671970803476695 0.0005369390960905697 0 -7.2331934762470221e-10 6.9169340293274442e-16</Inertia>
+</MassProperties>
+<GeometryFile name="Link2_Matlab_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link_1_Matlab" uid="Link_1_Matlab*:*Default" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link_1_Matlab.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11455395592541268</Mass>
+<CenterOfMass>0.10257388784010485 -6.0883007249389673e-05 7.065667758115386e-10</CenterOfMass>
+<Inertia>2.4104023857436715e-05 0.00064251335315341368 0.00064692431273504815 -1.3888438551550002e-13 9.8962531640706683e-12 -7.9163053641454914e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Link_1_Matlab_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
