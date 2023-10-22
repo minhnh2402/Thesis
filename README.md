@@ -4,6 +4,10 @@
 ```
 Thiết kế Robot Delta trên phần mềm Solidworks và tiến hành gia công, lắp đặt Robot
 ```
+![example](Image/3D.png)
+
+![example](Image/Thucte.png)
+
 ## 2. Thiết kế hệ thống điện
 ```
 Hệ thống điện động lực và điều khiển 
