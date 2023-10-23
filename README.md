@@ -75,3 +75,5 @@ Kết quả thực nghiệm sai số về mặt vị trí theo thời gian khi r
 Kết quả thực nghiệm sai số về mặt vị trí theo thời gian khi robot bám theo quỹ đạo hình tròn trong mặt phẳng 
 
 ![example](Image/Duongtron1.png)
+
+[Link thực nghiệm bám quỹ đạo hình tròn](https://www.youtube.com/watch?v=yH_MfY3dLOM)
