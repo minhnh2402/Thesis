@@ -57,6 +57,7 @@ Sơ đồ tổng quan mạch gồm ba khối chính:
 ![example](Image/Datasheet.png)
 Đọc Datasheet của MNM1221 để thiết lập các cấu hình và chức nằng cũng như mode chạy AC Servo PANASONIC.
 ### 5.3. Xây dựng chương trình chạy Robot trên Ubuntu
+
 ![example](Image/Screen1.png)
 Xây dựng chương trình điều khiển Robot chạy trên nền tảng Ubuntu, sử dụng giao thức USB HID để điều khiển RTEX Board. Dùng để test chương trình điều khiển, chương trình có sử dụng thread khác nhau để có thể điều khiển và đọc dữ liệu.
 
