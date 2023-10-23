@@ -11,7 +11,9 @@
   - [4. Mô hình hoá và thiết kế bộ điều khiển](#4-mô-hình-hoá-và-thiết-kế-bộ-điều-khiển)
   - [5. Xây dựng chương trình điều khiển Robot](#5-xây-dựng-chương-trình-điều-khiển-robot)
     - [5.1. Điều khiển robot thông qua mạng RTEX](#51-điều-khiển-robot-thông-qua-mạng-rtex)
-    - [5.2. Giao diện điều khiển](#52-giao-diện-điều-khiển)
+    - [5.2. Khung dữ liệu trong mạng](#52-khung-dữ-liệu-trong-mạng)
+    - [5.3. Xây dựng chương trình chạy Robot trên Ubuntu](#53-xây-dựng-chương-trình-chạy-robot-trên-ubuntu)
+    - [5.4. Giao diện điều khiển](#54-giao-diện-điều-khiển)
   - [6. Thực nghiệm](#6-thực-nghiệm)
 
 ## 1. Mục tiêu đồ án
@@ -44,9 +46,22 @@ Robot sử dụng thuật toán Point to point để bám quỹ đạo và ứng
 ![example](Image/Admitance.png)
 ## 5. Xây dựng chương trình điều khiển Robot
 ### 5.1. Điều khiển robot thông qua mạng RTEX
+![example](Image/BoardRTEX.png)
+![example](Image/RTEX.png)
+Sơ đồ tổng quan mạch gồm ba khối chính:
+- PIC33EP521MU814: vi điều khiển trung tâm của board
+- MNM1221: RTEX Protocol IC, đóng vai trò giao thức kết nối mạng RTEX
+- KSZ8041: PHY(Physical Layer Chip), tạo lớp vật lý đóng vai trò truyền nhận dữ liệu.
 
-### 5.2. Giao diện điều khiển
+### 5.2. Khung dữ liệu trong mạng
+![example](Image/Datasheet.png)
+Đọc Datasheet của MNM1221 để thiết lập các cấu hình và chức nằng cũng như mode chạy AC Servo PANASONIC.
+### 5.3. Xây dựng chương trình chạy Robot trên Ubuntu
+Xây dựng chương trình điều khiển Robot chạy trên nền tảng Ubuntu, sử dụng giao thức USB HID để điều khiển RTEX Board. Dùng để test chương trình điều khiển, chương trình có sử dụng thread khác nhau để có thể điều khiển và đọc dữ liệu.
+
+### 5.4. Giao diện điều khiển
 ![example](Image/Giaodien1.png)
+Xây dựng giao diện điều khiển trên MFC, giao diện có các chức năng điều khiển robot cũng như lấy các giá trị được trả về từ encoder, thiết lập quỹ đạo cho Robot.
 
 ## 6. Thực nghiệm
 Kết quả thực nghiệm sai số về mặt vị trí theo thời gian khi robot bám theo quỹ đạo hình tròn trong mặt phẳng OXY
