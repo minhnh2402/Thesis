@@ -12,10 +12,10 @@ CFLAGS := -I$(INC_DIR)
 
 
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.cpp $(INC_FILES)
-	$(CXX) $(CFLAGS) -c $< -o $@ -lhidapi-libusb
+	$(CXX) $(CFLAGS) -c $< -o $@ -lhidapi-hidraw
 
 $(TARGET): $(OBJ_FILES)
-	$(CXX) $^ -o $@ -lhidapi-libusb
+	$(CXX) $^ -o $@ -lhidapi-hidraw
 
 all: $(TARGET)
 
