@@ -48,6 +48,7 @@ Robot sử dụng thuật toán Point to point để bám quỹ đạo và ứng
 ### 5.1. Điều khiển robot thông qua mạng RTEX
 ![example](Image/BoardRTEX.png)
 ![example](Image/RTEX.png)
+
 Sơ đồ tổng quan mạch gồm ba khối chính:
 - PIC33EP521MU814: vi điều khiển trung tâm của board
 - MNM1221: RTEX Protocol IC, đóng vai trò giao thức kết nối mạng RTEX
